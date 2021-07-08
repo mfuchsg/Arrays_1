@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 #define tab "\t";
 #define left;
@@ -20,7 +20,7 @@ void main()
 	cout << endl;
 
 #ifdef left
-	cout << "Ââåäèòå íà ñêîëäüêî ñäâèíóòü ìàññèâ âëåâî: "; cin >> number_of_shifts;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð° ÑÐºÐ¾Ð»Ð´ÑŒÐºÐ¾ ÑÐ´Ð²Ð¸Ð½ÑƒÑ‚ÑŒ Ð¼Ð°ÑÑÐ¸Ð² Ð²Ð»ÐµÐ²Ð¾: "; cin >> number_of_shifts;
 	for (int i = 0; i < number_of_shifts; i++)
 	{
 		int buffer = arr[0];
@@ -38,7 +38,7 @@ void main()
 #endif // left
 
 #ifdef right
-	cout << "Ââåäèòå íà ñêîëüêî ñäâèíóòü ìàññèâ âïðàâî: "; cin >> number_of_shifts;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð° ÑÐºÐ¾Ð»ÑŒÐºÐ¾ ÑÐ´Ð²Ð¸Ð½ÑƒÑ‚ÑŒ Ð¼Ð°ÑÑÐ¸Ð² Ð²Ð¿Ñ€Ð°Ð²Ð¾: "; cin >> number_of_shifts;
 	cout << endl;
 
 	for (int i = 0; i < number_of_shifts; i++)
